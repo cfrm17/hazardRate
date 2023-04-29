@@ -75,7 +75,7 @@ Although the above approach of the hazard rate calibration has been well establi
 
 1.	Implied Default Probability 
 
-The default probability of an entity can be calculated using other methods such as Merton’s option theoretical approach, historical default information, and market price of defaultable bond (see https://finpricing.com/lib/FiBond.html). However, a well-established CDS market with high liquidity enables us to get the implied default probability of an entity from the CDS market directly2 , as described in this report.  It is more appropriate to use this default probability than those implied by the above mentioned three methods.
+The default probability of an entity can be calculated using other methods such as Merton’s option theoretical approach, historical default information, and market price of defaultable bond. However, a well-established CDS market with high liquidity enables us to get the implied default probability of an entity from the CDS market directly2 , as described in this report.  It is more appropriate to use this default probability than those implied by the above mentioned three methods.
  
 2.	Recovery Rate and Correlation with Default Probability
 
@@ -87,3 +87,6 @@ The CDS trade is a synthetic contract in which there is no physical underlying a
 
 A deterministic credit curve is assumed in the current modelling approach outlined in this report. The latest research endeavours tend to introduce a stochastic dynamic process of the hazard rate as well as a correlation between the interest rates and the default probability of the reference entity. These new models are especially useful in the pricing of the options on the CDS contract, for example, a CDS with a cancellable structure linked to interest rates. Implied by the market directly, a deterministic hazard rate curve independent of interest rates still remains the pertinent model to price the standard CDS.
 
+Reference:
+
+https://finpricing.com/FinPricing-ProductBrochure.pdf
